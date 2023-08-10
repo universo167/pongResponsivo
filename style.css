@@ -1,0 +1,29 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.canva{
+  display: block;
+}
+header{
+  display: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+ 
+
+  header{
+    display: block;
+    background-color:pink
+  }
+ 
+}
